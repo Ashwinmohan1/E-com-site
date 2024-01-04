@@ -1,0 +1,51 @@
+/* Addproduct.css */
+
+.add-product-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .add-product-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-product-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-product-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .add-product-container input {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .add-product-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-product-container button:hover {
+    background-color: #0056b3;
+  }
+  

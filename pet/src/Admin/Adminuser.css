@@ -1,0 +1,61 @@
+/* Adminuser.css */
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the table headers */
+  th {
+    background-color: #3498db; /* Header background color */
+    color: #fff; /* Header text color */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style alternate table rows with different background colors */
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Even row background color */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff; /* Odd row background color */
+  }
+  
+  /* Style the table cells */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Add some spacing between table rows */
+  tr {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the table container */
+  .adminuser-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the h1 element */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the .h-75 element (adjust height as needed) */
+  .h-75 {
+    height: 75px;
+  }
+  
